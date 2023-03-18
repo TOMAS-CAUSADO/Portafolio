@@ -95,6 +95,35 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+
+.custom-shape-divider-top-1679100511 {
+  background-image: url("../imagenes/medicos.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.custom-shape-divider-top-1679103604 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1679103604 svg {
+  position: relative;
+  display: block;
+  width: calc(192% + 1.3px);
+  height: 456px;
+}
+
+.custom-shape-divider-top-1679103604 .shape-fill {
+  fill: #9C3939;
+}
+
+
 a {
   color: inherit;
   text-decoration: none;
